@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+/* Global ========= */
+
+:root {
+  --first-color--:#000005;
+  --second-color--: #212846;
+  --third-color-- :#515890;
+  --fourth-color--: #8e8fe4;
+  --fifth-color--:#d7ccff;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* height: 100vh; */
+  box-sizing: border-box;
+  background-color: #595f8e
+}
+
+.Menu {
+  display: flex;
+  padding: 2% 0% 0% 15%;
+}
+
+.Menu__Header {
+  display: flex;
+  gap: 80px;
+}
+
+.Menu__Header__link:hover {
+  background-color: black;
+  transition: 0.5s;
+  border-radius: 8px;
+} 
+
+.Menu__Header__link {
+  /* background-color: #212846; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color:#f6f6f6;
+  text-decoration: none;
+}
+
+strong {
+  color: aliceblue;
+}
+
+.apresentation {
+  padding: 10% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apresentation__content {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.apresentation__content__title {
+  font-size: 36px;
+  font-family: 'Krona One', sans-serif;
+}
+
+.apresentation__content__text {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img__edition {
+  height: 10;
+  max-width:  400px;
+  max-height: 500px;
+  border-radius: 0.5rem;
+}
+
+.apresentation__about__me {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.apresentation__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.apresentation__links__subtitle {
+  font-family: 'Krona One', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.apresentation__links__link {
+  /*background-color: #212846;*/
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  color: #f6f6f6;
+  width: 378px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  padding: 21.5px 0;
+  text-decoration: none;
+  border: 3.5px groove #212846;
+  transition: 1s;
+}
+
+.apresentation__links__link:hover {
+  background-color: black;
+  border-radius: 10px;
+}
+
+.baseboard {
+    display: flex;
+    color: white;
+    background-color:#212846;
+    padding: 24px;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
